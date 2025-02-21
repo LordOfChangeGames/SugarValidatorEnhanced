@@ -10,13 +10,13 @@ Most SugarCube games will ship with a few of these types of errors. Now you can 
 
 * You can run this in your browser (Coming Soon)
 * You can install this as an npm-package
-  * Run it in client
+  * Run it in cli
   * As a module in your script
 * You can run this tool as a node-script
 
 ### Running in your browser
 
-You can run this tool [in the browser](https://goctionni.github.io/SugarValidator/index.html), simply drag and drop your game's html file to see any issues. Depending on the filesize, the results can be near instant or take a while.
+You will be able to run this tool in the browser (Coming Soon), by simply drag and drop your game's html file to see any issues. Depending on the filesize, the results can be near instant or take a while.
 
 ### Install as an NPM package
 
