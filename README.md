@@ -6,9 +6,17 @@ This is a validator made for SugarCube games. It takes your game's HTML file as 
 
 Most SugarCube games will ship with a few of these types of errors. Now you can easily check for them and fix them before your users do.
 
-## How to use
+## Changes from the main branch
+* Improved macro validation to prevent various false positives
 
-* You can run this in your browser (Coming Soon)
+## Planned features
+* Improved `<<if>>` `<<elseif>>` condition checks
+* Warnings for uneven number of parrenthesis, curly braces and brackets in a passage
+* Usage of commas between arguments in a `case`
+* Unmatched HTML tags
+
+## How to use
+* You can run this in your browser
 * You can install this as an npm-package
   * Run it in cli
   * As a module in your script
@@ -16,7 +24,7 @@ Most SugarCube games will ship with a few of these types of errors. Now you can 
 
 ### Running in your browser
 
-You will be able to run this tool in the browser (Coming Soon), by simply drag and drop your game's html file to see any issues. Depending on the filesize, the results can be near instant or take a while.
+You will be able to run this tool in the [browser](https://lordofchangegames.github.io/SugarValidatorEnhanced/), by simply drag-and-dropping your game's html file to see any issues. Depending on the filesize, the results can be near instant or take a while.
 
 ### Install as an NPM package
 
