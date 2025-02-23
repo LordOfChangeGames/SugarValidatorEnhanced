@@ -14,8 +14,8 @@ Most SugarCube games will ship with a few of these types of errors. Now you can 
 
 ## Planned features
 * Improved `<<if>>` `<<elseif>>` condition checks
-* Usage of commas between arguments in a `case`
-* Unmatched HTML tags
+* Usage of commas between arguments in a `case` detection
+* Unmatched HTML tags detection
 * Sorting warnings/errors by type
 * Possibility to hide errors (to use as a fix checklist)
 
