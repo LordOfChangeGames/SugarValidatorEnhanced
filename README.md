@@ -16,6 +16,8 @@ Most SugarCube games will ship with a few of these types of errors. Now you can 
 * Improved `<<if>>` `<<elseif>>` condition checks
 * Usage of commas between arguments in a `case`
 * Unmatched HTML tags
+* Sorting warnings/errors by type
+* Possibility to hide errors (to use as a fix checklist)
 
 ## How to use
 * You can run this in your browser
@@ -69,4 +71,6 @@ $ node ./validator/cli ./YourGame.html
 
 ### Credits
 
-A huge thank you to Goctionni for the original project. It has been a huge help for me and many other developers. I am returning the favor by updating your wonderful work.
+A huge thank you to Goctionni for the original project. It has been a huge help for me and many other developers. I am returning the favor by updating your wonderful work. 
+
+Special thanks to the developers that are providing feedback for the SugarValidatorEnhanced project (Pyo, Regina Sedinae), your comments are greatly helping me to make this project even more useful to developers.
