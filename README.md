@@ -8,10 +8,10 @@ Most SugarCube games will ship with a few of these types of errors. Now you can 
 
 ## Changes from the main branch
 * Improved macro validation to prevent various false positives
+* Warnings for uneven number of parrenthesis, curly braces and brackets in a passage
 
 ## Planned features
 * Improved `<<if>>` `<<elseif>>` condition checks
-* Warnings for uneven number of parrenthesis, curly braces and brackets in a passage
 * Usage of commas between arguments in a `case`
 * Unmatched HTML tags
 
