@@ -59,10 +59,6 @@ console.log(validate(html));
 ### Running this tool as a node-script
 
 * Create a new folder within your project (ie: validator)
-
-### Credits
-
-A huge thank you to Goctionni for the original project. It has been a huge help for me and many other developers. I am returning the favor by updating your wonderful work.
 * Download the files as a zip
 * Extract the files into the newly created folder
 * Run the following command:
@@ -70,3 +66,7 @@ A huge thank you to Goctionni for the original project. It has been a huge help 
 ```sh
 $ node ./validator/cli ./YourGame.html
 ```
+
+### Credits
+
+A huge thank you to Goctionni for the original project. It has been a huge help for me and many other developers. I am returning the favor by updating your wonderful work.
