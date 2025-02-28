@@ -9,14 +9,14 @@ Most SugarCube games will ship with a few of these types of errors. Now you can 
 ## Changes from the main branch
 * Improved macro validation to prevent various false positives
 * Warnings for uneven number of parentheses, curly braces and brackets in a passage
-* (WIP) Warnings for unmatched common HTML markups: `<a>, <audio>, <b>, <body>, <center>, <div>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <head>, <i>, <img>, <p>, <span>, <video>`
+* Warnings for unmatched HTML markups
 * Support for `no-warnings` passage tag to ignore warnings linked to unven numbers of parentheses, curly braces, brackets and double quotation marks
 * Support for `no-scan` passage tag to ignore scanning a passage altogether for unused, WIP passages (This is not a recommended practice, but the option exists)
 
 ## Planned features
 * Improved `<<if>>` `<<elseif>>` condition checks
 * Usage of commas between arguments in a `case` detection
-* Unmatched HTML tags detection
+* Syntax validation for HTML tags
 * Sorting warnings/errors by type
 * Possibility to hide errors (to use as a fix checklist)
 
